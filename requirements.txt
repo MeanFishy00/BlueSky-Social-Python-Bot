@@ -1,0 +1,6 @@
+atproto
+llama-index
+ollama
+requests
+schedule
+python-dotenv

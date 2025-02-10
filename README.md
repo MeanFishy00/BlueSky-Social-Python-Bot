@@ -1,5 +1,11 @@
-
 # BlueSky Social Python Bot
+
+## Overview
+A customizable template for creating AI-powered social media bots using LlamaIndex, Bluesky, and Ollama with RAG functionality.
+
+## Project Structure
+- **ollamaBlueSky.py**: Contains core bot logic with RAG setup, file directory reading, and persistent storage.
+- **BlueSkyBot.py**: Handles original API interactions, task scheduling, and posting features.
 
 This project demonstrates my ability to build robust Python applications that interact with APIs, process data, and automate tasks. The **BlueSky Social Python Bot** automates the posting of text and image content to the BlueSky Social platform using the `Atproto` client, complete with logging and scheduling capabilities.
 
@@ -9,6 +15,7 @@ This project demonstrates my ability to build robust Python applications that in
 - **Task Scheduling:** Automate tasks to run at periodic intervals using the `schedule` library.
 - **Error Handling:** Comprehensive logging and error handling for robust performance.
 - **Secure Configuration:** Credentials and API URLs are handled securely using environment variables.
+- **Ollama RAG Integration:** Implements retrieval augmented generation using LlamaIndex with dynamic prompt creation, file directory reading, and persistent storage.
 
 ---
 

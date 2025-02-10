@@ -1,0 +1,13 @@
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Virtual environment folders
+venv/
+.env/
+
+# Log files
+*.log
+
+# Temporary files
+temp/
